@@ -18,6 +18,12 @@ public class QueuedThread
         set;
     }
 
+    public ObjectId TargetAccount
+    {
+        get;
+        set;
+    }
+
     public DateTime PostTime
     {
         get;
