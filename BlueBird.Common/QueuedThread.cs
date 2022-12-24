@@ -36,7 +36,7 @@ public class QueuedThread
         set;
     }
 
-    public bool IsPosted
+    public ThreadState State
     {
         get;
         set;
